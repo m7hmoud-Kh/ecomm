@@ -1,0 +1,404 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*strat main rulaz*/
+body
+{
+    background-color: #f4f4f4;
+    height: 1200px;
+}
+/*end main rulaz*/
+/*start login form*/
+.login
+{
+    width: 300px;
+    margin: 100px auto;
+    
+
+}
+.login h4 
+{
+    color: #888;
+}
+.login input
+{
+    margin-bottom: 10px;
+}
+.login .form-control
+{
+    background-color: #e5e5e5;
+}
+.login .btn
+{
+    background-color: #008dde;
+}
+/*start login form*/
+/* start the nav */
+nav 
+{
+    background-color: #333 !important;
+}
+.navbar-brand
+{
+    font-size: 25px;
+}
+.navbar-collapse
+{
+    margin-left: 1%;
+}
+.dropdown-menu
+{
+  border-radius: 15px;
+  min-width: 180px;
+}
+.dropdown-item
+{
+    transition: all 0.54s ease-in-out;
+    border:none;
+}
+.dropdown-item:hover 
+{
+    transform: translateX(3px);
+    color:rgb(61, 37, 197);
+}
+.color 
+{
+    color: #Fff;
+}
+.color:hover 
+{
+    color: #e59494;
+}
+/* end the nav */
+/*start the dashbord*/
+.home_stat .stat 
+{
+    border:1px solid #ccc;
+    padding: 20px;
+    font-weight: bold;
+    border-radius: 8px;
+    position: relative;
+    height: 150px;
+    margin-bottom: 5%;
+}
+.stat  i 
+{
+    position: absolute;
+    left: 6px;
+    font-size: 60px;
+    color: #fff;
+}
+.stat .info 
+{
+    position: absolute;
+    right: 6px;
+    color: #fff;
+    font-size: 20px;
+}
+.stat .info a
+{
+  color: #fff;
+  text-decoration: none;
+
+}
+.st-member
+{
+  background-color: #3498db;
+} 
+.st-pending
+{
+    background-color:#c0392b ;
+
+}
+.st-item
+{
+    background-color:#d35400 ;
+
+}
+.st-comment
+{
+    background-color:#8e44ad ;
+}
+
+.lastest 
+.category
+{
+    margin-top: 30px;
+}
+.panel_head
+{
+    background-color: #ccc;
+    padding: 2%;
+  
+}
+.panel_head i:first-of-type
+{
+    text-align: center;
+}
+.panel_head .toggleplus
+{
+    position: absolute;
+    right: 28px;
+    top: 11px;
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+    
+}
+.panel_head .min 
+{
+    color: #999;
+}
+ .panel_body 
+{
+    background-color: #fff;
+    padding: 2%;
+
+}
+.panel_body .last_user
+{
+    margin-bottom: 0;
+}
+.panel_body .last_user li 
+{
+    padding: 5px ;
+}
+
+.panel_body .last_user li a 
+{
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    left: 56%;
+    margin-left: 1%;
+}
+.panel_body .last_user li:nth-of-type(odd)
+{
+    background-color: #eee;
+}
+.lastest .comments
+{
+    margin-top: 10%;
+}
+.lastest .comments .to_com i 
+{
+    top: 55px;
+    position: absolute;
+    left: -16px;
+}
+.commentbox p ,
+.commentbox span 
+{
+    display: block;
+}
+.commentbox span 
+{
+    width: 200px;
+    float: left;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+.commentbox span a 
+{
+    color: #000;
+    text-decoration: none;
+    transition: all 0.45s ease-in-out;
+    font-weight: bold;
+}
+.commentbox p
+{
+    width: calc(100% - 80px);
+    clear: both;
+    margin-left: 2%;
+    background-color: #191919;
+    color: #ffa8a8;
+    padding: 2%;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #de8a8a;
+}
+.commentbox p::before
+{
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: 11px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px;
+    border-color: transparent transparent #000 transparent;
+
+}
+
+/*end the dashbord*/
+/* start to member*/
+h1
+{
+    font-size: 55px;
+    margin: 40px 0;
+    font-weight: bold;
+    color: #666;
+}
+.save
+{
+    width: 150px;
+}
+.form-control
+{
+    position: relative;
+}
+.ask 
+{
+    position: absolute;
+    right: 25px;
+    top: 0px;
+    font-size: 30px;
+    color: #f00;
+}
+.main-table
+{
+    box-shadow: 0 8px 12px #ccc;
+}
+.main-table tr:first-of-type td 
+{
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+}
+.main-table td 
+{
+    background-color: #fff;
+    vertical-align: middle !important;
+}
+.main-table .btn 
+{
+    padding:3px 10px;
+}
+/*end to member*/
+/*start add page */
+.showpass 
+{
+    position: absolute;
+    right: 56px;
+    top: 3px;
+    cursor: pointer;
+}
+/*end the add page*/
+/* strat the categor*/
+.category .panel_head
+{
+    position: relative;
+}
+.panel_head > span
+{
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    color: #686666;
+}
+.category .ord 
+{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+.category .ord a
+{
+    color: #000;
+    text-decoration: none;
+}
+.category .ord  .active
+{
+    color: #f00;
+    font-weight: bold;
+}
+.ord span 
+{
+    cursor: pointer;
+}
+.category .cats
+{
+    position: relative;
+    overflow: hidden;
+    padding: 10px;
+    
+}
+.category .cats h3
+{ 
+  margin: 0 0 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+hr 
+{
+    border-top: 5px dashed rgba(0, 0, 0, 0.1) !important;
+}
+.category .cats:last-of-type ~ hr 
+{
+    display: none;
+}
+.category .cats .visble,
+.category .cats .commenting,
+.category .cats .ads
+{
+    color: #fff;
+    padding: 4px 6px;
+    margin-right: 10px;
+    border-radius: 6px;
+    margin-bottom: 5px;
+}
+.category .cats .visble
+{
+    background-color: #d35400;
+}
+.category .cats .commenting
+{
+    background-color: #2c3e50;
+    margin-left: 5px;
+}
+.category .cats .ads
+{
+    background-color: #c0392b;
+    margin-left: 5px;
+}
+.category .cats .hidden_button 
+{
+    position: absolute;
+    top: 10px;
+    right: -190px;
+    transition: all 0.45s ease-in-out;
+}
+.category .cats:hover
+{
+    background-color: rgba(202, 195, 195, 0.34);
+}
+.category .cats:hover .hidden_button
+{
+  right: 15px;
+
+} 
+.category .cats .hidden_button a 
+{
+    margin-left: 8px;
+}
+.category .addcat
+{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.child li
+{
+    background-color: #eee !important;
+}
+/*end the categor*/
+/*start the item page*/
+.sele
+{
+    width: 82% !important;
+}
+/*end the item page*/

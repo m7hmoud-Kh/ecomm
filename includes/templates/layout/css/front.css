@@ -1,0 +1,137 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*strat main rulaz*/
+body
+{
+    background-color: #f4f4f4;
+    height: 1200px;
+}
+h1
+{
+    font-size: 55px;
+    margin: 40px 0;
+    font-weight: bold;
+    color: #666;
+}
+.ask 
+{
+    position: absolute;
+    right: 29%;
+    top: 3px;
+    font-size: 25px;
+    color: #f00;
+}
+.showpass 
+{
+    position: absolute;
+    right: 56px;
+    top: 3px;
+    cursor: pointer;
+}
+/*end main rulaz*/
+/*start the upernav*/
+.welco
+{
+    color: #fff;
+}
+.upernav
+{
+    background-color: #666;
+}
+.upnav a
+{
+    padding: 5px;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.45s ease-in-out;
+}
+.upnav a:hover 
+{
+    color: #e59494;
+}
+/*end the upernav*/
+/* start the nav */
+nav 
+{
+    background-color: #333 !important;
+}
+.navbar-brand
+{
+    font-size: 25px;
+}
+.navbar-collapse
+{
+    margin-left: 1%;
+}
+.dropdown-menu
+{
+  border-radius: 15px;
+  min-width: 180px;
+}
+.dropdown-item
+{
+    transition: all 0.54s ease-in-out;
+    border:none;
+}
+.dropdown-item:hover 
+{
+    transform: translateX(3px);
+    color:rgb(61, 37, 197);
+}
+.color 
+{
+    color: #Fff;
+}
+.color:hover 
+{
+    color: #e59494;
+}
+/* end the nav */
+/*start the login page*/
+h1 span
+{
+    cursor: pointer;
+}
+h1 .active 
+{
+    color:#ee5252;
+}
+h1 [data-class=".singup"].active
+{
+    color: #87ec9f;
+}
+h1 [data-class=".login"].active
+{
+    color: #13c7e7;
+}
+.form_input
+{
+    position: relative;
+}
+form .lo_in
+{
+    max-width: 500px;
+    margin: auto;
+    margin-bottom: 10px;
+    
+}
+.singup
+{
+    display: none;
+}
+
+/*end the login page*/
+/*start the porfile*/
+.face
+{
+    text-align: center;
+    font-size: 35px;
+    color: #fff;
+    background-color:#000;
+    border-radius: 15px;
+}
+/*end the porfile*/
